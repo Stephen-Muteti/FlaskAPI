@@ -1,0 +1,12 @@
+CREATE DATABASE My_Academy;
+
+USE My_Academy;
+
+CREATE TABLE students (
+    student_id INT PRIMARY KEY AUTO_INCREMENT,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    dob DATE,
+    amount_due DECIMAL(10, 2) NOT NULL
+);
+
